@@ -14,25 +14,23 @@ namespace xmlToWord
         static void Main(string[] args)
         {
             Console.WriteLine("Start parsing....");
-            //var xml = XDocument.Load(@"C:\Users\Ludovic\Documents\xmlToWord\Monsieur et Madame TROCHARD Gilles et Antoinette - Nouvelle étude.xml");
 
-            string filename = @"C:\Users\Ludovic\Documents\xmlToWord\Monsieur et Madame TROCHARD Gilles et Antoinette - Nouvelle étude.xml";
+            string filename = @"..\..\..\Files\Monsieur et Madame TROCHARD Gilles et Antoinette - Nouvelle étude.xml";
 
-            adresse a = new adresse();
-            XmlSerializer xmlSerializer = new XmlSerializer(typeof(adresse));
-            using (Stream stream = new FileStream(filename, FileMode.Open))
-            {
-                XmlWriter writer =
-                new XmlTextWriter(stream, Encoding.Unicode);
-                // Serialize using the XmlTextWriter.
-                xmlSerializer.Serialize(writer, a);
-                writer.Close();
-            }
+            System.IO.StreamReader str = new System.IO.StreamReader(filename);
+            XmlRootAttribute xRoot = new XmlRootAttribute();
+            xRoot.ElementName = "projet";
+            System.Xml.Serialization.XmlSerializer xSerializer = new System.Xml.Serialization.XmlSerializer(typeof(AdresseMap), xRoot);
+            AdresseMap res = (AdresseMap)xSerializer.Deserialize(str);
+            //foreach (ResultSetResult r in res)
+            //{
+            //    Console.WriteLine(r.Title);
+            //    Console.WriteLine(r.Summary);
+            //    Console.WriteLine();
+            //}
+            //str.Close();
 
-
-            //var query = xml.Descendants("projet").Descendants("Datas_Comp")
-            //    .Select()
-            Console.Read();
+            Console.ReadLine();
         }
     }
 }

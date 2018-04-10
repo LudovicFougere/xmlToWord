@@ -9,3 +9,14 @@ C:\Users\Ludovic\Documents\Visual Studio 2017\Projects\xmlToWord\xmlToWord\obj\D
 C:\Users\Ludovic\Documents\Visual Studio 2017\Projects\xmlToWord\xmlToWord\obj\Debug\netcoreapp2.0\xmlToWord.AssemblyInfo.cs
 C:\Users\Ludovic\Documents\Visual Studio 2017\Projects\xmlToWord\xmlToWord\obj\Debug\netcoreapp2.0\xmlToWord.dll
 C:\Users\Ludovic\Documents\Visual Studio 2017\Projects\xmlToWord\xmlToWord\obj\Debug\netcoreapp2.0\xmlToWord.pdb
+C:\Users\L.FOUGERE\Documents\Projets\xmlToWord\xmlToWord\xmlToWord\xmlToWord\bin\Debug\netcoreapp2.0\xmlToWord.deps.json
+C:\Users\L.FOUGERE\Documents\Projets\xmlToWord\xmlToWord\xmlToWord\xmlToWord\bin\Debug\netcoreapp2.0\xmlToWord.runtimeconfig.json
+C:\Users\L.FOUGERE\Documents\Projets\xmlToWord\xmlToWord\xmlToWord\xmlToWord\bin\Debug\netcoreapp2.0\xmlToWord.runtimeconfig.dev.json
+C:\Users\L.FOUGERE\Documents\Projets\xmlToWord\xmlToWord\xmlToWord\xmlToWord\bin\Debug\netcoreapp2.0\xmlToWord.dll
+C:\Users\L.FOUGERE\Documents\Projets\xmlToWord\xmlToWord\xmlToWord\xmlToWord\bin\Debug\netcoreapp2.0\xmlToWord.pdb
+C:\Users\L.FOUGERE\Documents\Projets\xmlToWord\xmlToWord\xmlToWord\xmlToWord\obj\Debug\netcoreapp2.0\xmlToWord.csprojResolveAssemblyReference.cache
+C:\Users\L.FOUGERE\Documents\Projets\xmlToWord\xmlToWord\xmlToWord\xmlToWord\obj\Debug\netcoreapp2.0\xmlToWord.csproj.CoreCompileInputs.cache
+C:\Users\L.FOUGERE\Documents\Projets\xmlToWord\xmlToWord\xmlToWord\xmlToWord\obj\Debug\netcoreapp2.0\xmlToWord.AssemblyInfoInputs.cache
+C:\Users\L.FOUGERE\Documents\Projets\xmlToWord\xmlToWord\xmlToWord\xmlToWord\obj\Debug\netcoreapp2.0\xmlToWord.AssemblyInfo.cs
+C:\Users\L.FOUGERE\Documents\Projets\xmlToWord\xmlToWord\xmlToWord\xmlToWord\obj\Debug\netcoreapp2.0\xmlToWord.dll
+C:\Users\L.FOUGERE\Documents\Projets\xmlToWord\xmlToWord\xmlToWord\xmlToWord\obj\Debug\netcoreapp2.0\xmlToWord.pdb
