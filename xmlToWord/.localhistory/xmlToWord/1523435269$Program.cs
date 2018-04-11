@@ -20,9 +20,8 @@ namespace xmlToWord
             System.IO.StreamReader str = new System.IO.StreamReader(filename);
             XmlRootAttribute xRoot = new XmlRootAttribute();
             xRoot.ElementName = "projet";
-            
-            System.Xml.Serialization.XmlSerializer xSerializer = new System.Xml.Serialization.XmlSerializer(typeof(projet), xRoot);
-            projet res = (projet)xSerializer.Deserialize(str);
+            System.Xml.Serialization.XmlSerializer xSerializer = new System.Xml.Serialization.XmlSerializer(typeof(AdresseMap), xRoot);
+            AdresseMap res = (AdresseMap)xSerializer.Deserialize(str);
             //foreach (ResultSetResult r in res)
             //{
             //    Console.WriteLine(r.Title);

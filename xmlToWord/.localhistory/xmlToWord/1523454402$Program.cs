@@ -21,8 +21,8 @@ namespace xmlToWord
             XmlRootAttribute xRoot = new XmlRootAttribute();
             xRoot.ElementName = "projet";
             
-            System.Xml.Serialization.XmlSerializer xSerializer = new System.Xml.Serialization.XmlSerializer(typeof(projet), xRoot);
-            projet res = (projet)xSerializer.Deserialize(str);
+            System.Xml.Serialization.XmlSerializer xSerializer = new System.Xml.Serialization.XmlSerializer(typeof(Entree_Projet), xRoot);
+            Entree_Projet res = (Entree_Projet)xSerializer.Deserialize(str);
             //foreach (ResultSetResult r in res)
             //{
             //    Console.WriteLine(r.Title);
